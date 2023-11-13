@@ -38,6 +38,10 @@
                     <a class="nav-link
                         @(controller == "Home" && action == "About" ? "active" : "")"
                        asp-controller="Home" asp-action="About">About</a>
+                    <a class="nav-link
+                        @(controller == "Home" && action == "ContactUs" ? "active" : "")"
+                       asp-controller="Home" asp-action="ContactUs">Contact us</a>
+
                 </div>
                 <div class="navbar-nav navbar-right">
                     <a class="nav-link"

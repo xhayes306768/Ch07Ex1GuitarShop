@@ -14,5 +14,15 @@ namespace GuitarShop.Controllers
         {
             return View();
         }
+
+        [Route("ContactUs")]
+        public IActionResult ContactUs()
+        {
+            return View();
+        }
+
+
+
+
     }
 }

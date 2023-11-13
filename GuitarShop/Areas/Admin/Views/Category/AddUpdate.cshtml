@@ -3,6 +3,16 @@
     string title = ViewBag.Action + " Category";
     ViewBag.Title = title;
 }
+<!--  since this view uses validation, it should provide the validation scripts
+     so these scripts can be inserted into the layout -->
+@section scripts {
+    <script src="~/lib/jquery-validate/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/
+                       jquery.validate.unobtrusive.min.js"></script>
+}
+
+
+
 
 <h1>@ViewBag.Title</h1>
 
